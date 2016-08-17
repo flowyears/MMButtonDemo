@@ -15,6 +15,7 @@
 		7D4B3EA31D6403BF00D39050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B3EA11D6403BF00D39050 /* LaunchScreen.storyboard */; };
 		7D4B3EAE1D6403BF00D39050 /* MMButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B3EAD1D6403BF00D39050 /* MMButtonDemoTests.m */; };
 		7D4B3EB91D6403BF00D39050 /* MMButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B3EB81D6403BF00D39050 /* MMButtonDemoUITests.m */; };
+		7D4B3EC81D6403E000D39050 /* MMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4B3EC71D6403E000D39050 /* MMButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7D4B3EB41D6403BF00D39050 /* MMButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4B3EB81D6403BF00D39050 /* MMButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMButtonDemoUITests.m; sourceTree = "<group>"; };
 		7D4B3EBA1D6403BF00D39050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4B3EC61D6403E000D39050 /* MMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMButton.h; sourceTree = "<group>"; };
+		7D4B3EC71D6403E000D39050 /* MMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7D4B3E971D6403BF00D39050 /* AppDelegate.m */,
 				7D4B3E991D6403BF00D39050 /* ViewController.h */,
 				7D4B3E9A1D6403BF00D39050 /* ViewController.m */,
+				7D4B3EC61D6403E000D39050 /* MMButton.h */,
+				7D4B3EC71D6403E000D39050 /* MMButton.m */,
 				7D4B3E9C1D6403BF00D39050 /* Main.storyboard */,
 				7D4B3E9F1D6403BF00D39050 /* Assets.xcassets */,
 				7D4B3EA11D6403BF00D39050 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				7D4B3E9B1D6403BF00D39050 /* ViewController.m in Sources */,
 				7D4B3E981D6403BF00D39050 /* AppDelegate.m in Sources */,
 				7D4B3E951D6403BF00D39050 /* main.m in Sources */,
+				7D4B3EC81D6403E000D39050 /* MMButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
